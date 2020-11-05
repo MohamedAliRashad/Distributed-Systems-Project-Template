@@ -1,0 +1,101 @@
+\documentclass[pdftex,10pt,a4paper,oneside]{article}
+%Can change the pt, papersize etc.
+
+\usepackage{algorithm}
+\usepackage{algorithmic} %Algorithm styles, need to be nested for the example shown
+\usepackage{fancyhdr} %For our headers
+\usepackage{graphicx} %Inserting images
+\usepackage{lipsum}  %Blank text fill, delete me when finished
+\usepackage{setspace} %Spacing on the front page for crest and titles
+\usepackage[]{fncychap} % Styles can be Sonny, Lenny, Glenn, Conny, Rejne, Bjarne and Bjornstrup
+\usepackage[hyphens]{url} %Deals with hyphens in urls to make them clickable
+\usepackage{xcolor} %Great if you want coloured text
+\usepackage{tabularx}
+\usepackage{appendix} %Take a wild guess slick
+
+%KEEP THIS ONE LAST it's quite buggy, it allows you to click on links within the pdf and web links without changing the colour. The mouse cursor simply changes its icon to indicate to the user. Great tool - still awkward
+\usepackage[hidelinks]{hyperref}
+
+
+%This will tell the compiler to do the header style, page and spacing between the header and text
+\fancyhf{}
+\renewcommand{\headrulewidth}{0.2pt}
+
+\begin{document}
+
+\pagenumbering{arabic}
+
+\begin{spacing}{2}
+	\begin{center}
+		\includegraphics[scale = 0.20]{ASU.png}
+	\end{center}
+	\vspace{5mm}
+	\begin{center}
+		\textbf{\begin{LARGE}
+		Distributed Marketplace System
+		\end{LARGE}}
+		\vspace{5mm}
+	\end{center}
+	\begin{center}
+		\textbf{\large Author1 \\ Author2 \\ Author3}
+		\vspace{10mm}
+	\end{center}
+	\begin{center}
+	     {\large Supervisor: Dr. Gamal Ibrahim }\\
+		\textbf{\large Department of Computer Systems Engineering}\\
+		{\large Faculty of Engineering at Ain Shams University}\\
+		{\large November 2020\\}
+	\end{center}
+\end{spacing}
+
+\pagebreak
+
+\tableofcontents
+
+\pagebreak
+
+\section{Introduction}
+A detailed description that elaborates on the project is needed.
+
+\section{Target Beneficiaries of the Project}
+Who are the beneficiaries of the delivered software application that will be delivered from
+your project? You may provide a list of all entities that can use your product and how each
+of them can benefit from your project.
+
+\section{Adopted Programming Language}
+Specify the programming language that you will use to implement the project.
+
+\section{System Architecture}
+This section should contain the updated system architecture of your project. The system architecture should be provided in the form of a block-diagram that shows the major sub-systems in your project and how they interact with each other. You need to provide an explanation of the system architecture that shows your assumptions and any clarification that might be needed and cannot be added to the block-diagram. Additionally, the system should clarify which distributed architecture model have been adopted and the justification of adopting it.
+
+\section{Application Level Protocol}
+Detailed application level protocol of your system should be provided in this section.
+
+\section{Distributed Database Design}
+Distributed database design and database schema should be provided in this section with
+the justifications of the adopted portioning methods.
+
+\section{Time Plan}
+In this section, an updated time plan of all phases of the project is detailed with the detailed tasks of each phase. A Gantt chart should be provided to show the actual time spent in each phase of the project as well as the overlapping among the different activities of the project.
+
+\section{Testing}
+Detailed testing process that you adopt in the project should be described in this section. It
+must cover component testing and system testing. It should detail all test cases used during
+testing phase. Test results must be provided and properly described.
+
+\section{End-User Guide}
+In this section, you provide the details of how to use your software. Screenshots and sample
+output of your software must be provided and commented. Step-by-step description of how
+to use your software is highly recommended in this section.
+
+\section{Resources Needed}
+Describe all resources that have been utilized in your project.
+
+\section{Role of Each Member}
+A description of the role of each team member in the project should be provided in this section.
+
+\bibliographystyle{plain}
+\bibliography{bibliography}
+
+
+\end{document}
