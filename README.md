@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="250" height="250" src="https://github.com/MohamedAliRashad/Graduation-Project-Book-Template/blob/master/Preamble/ASU.png">
+  <img width="250" height="250" src="https://github.com/MohamedAliRashad/Distributed-Systems-Project-Template/blob/main/ASU.png">
 </p>
 
 # Distributed-Systems-Project-Template
